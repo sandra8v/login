@@ -1,12 +1,18 @@
 body{
-    background-image: linear-gradient(to left,rgb(38, 38, 134),rgb(64, 64, 179),rgb(80, 80, 211));
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #container{
-    width: 100%;
+    background-color: rgba(40,57,101,.9);
+    padding: 10px 10px 10px 10px;
+    width: 500px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 120px 620px ;
 }
 label{
     color: #fff;
