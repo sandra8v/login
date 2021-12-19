@@ -1,0 +1,62 @@
+body{
+    background-image: linear-gradient(to left,rgb(38, 38, 134),rgb(64, 64, 179),rgb(80, 80, 211));
+}
+#container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    color: #fff;
+}
+#uname{
+    border-radius: 2px;
+    padding: 8px 8px 8px 8px;
+    margin: 8px 0px 20px 0px;
+    width: 250px;
+    height: 20px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 0 6px 20px -5px 
+}
+#password{
+    border-radius: 2px;
+    padding: 8px 8px 8px 8px;
+    margin: 8px 0px 20px 0px;
+    width: 250px;
+    height: 20px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 0 6px 20px -5px 
+}
+#ask{
+    display: flex;
+    flex-direction: row;
+}
+#qus{
+    padding: 8px 8px 8px 8px;
+    margin: 10px 0px 20px 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+#submit{
+    padding: 8px 50px 8px 50px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: #576cca;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 0 6px 20px -5px 
+}
